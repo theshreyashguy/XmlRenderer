@@ -1,79 +1,101 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# XML Form Renderer Application  
 
-# Getting Started
+This repository contains a **React Native** application designed to dynamically render forms based on XML input. It provides users with two functionalities: rendering a form from an uploaded XML file and creating a form based on directly inputted XML. The application is tailored for developers and testers working with dynamic form rendering, XML parsing, and React Native-based mobile solutions.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+---
 
-## Step 1: Start the Metro Server
+## Features
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- **Dynamic Form Rendering**:
+  - Parse XML content and render forms dynamically using `WebView`.
+  - Supports field types like text fields, radio buttons, date pickers, and drawing fields.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **Two Input Options**:
+  - **File Upload**: Select and render forms from XML files.
+  - **Direct XML Input**: Enter XML manually via a text editor.
 
-```bash
-# using npm
-npm start
+- **Error Handling**:
+  - Detects invalid or empty XML files.
+  - Provides user-friendly error messages for parsing and file validation.
 
-# OR using Yarn
-yarn start
-```
+- **Cross-Platform Compatibility**:
+  - Works seamlessly on both Android and iOS platforms.
 
-## Step 2: Start your Application
+---
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Project Structure
 
-### For Android
+1. **MainScreen**:  
+   - Entry screen containing options to upload XML files or provide direct XML input.  
+   - Includes modals for XML input and buttons for file-based rendering.  
 
-```bash
-# using npm
-npm run android
+2. **FormRenderer**:  
+   - Dynamically generates and displays forms based on parsed XML content.  
 
-# OR using Yarn
-yarn android
-```
+3. **AppNavigation**:  
+   - Navigation stack managing transitions between the `MainScreen` and `FormRenderer`.  
 
-### For iOS
+---
 
-```bash
-# using npm
-npm run ios
+## Example Usage Video  
 
-# OR using Yarn
-yarn ios
-```
+A video demonstration of the app in action is available [here](#).  
+- **What It Covers**:
+  - Uploading an XML file and rendering the corresponding form.
+  - Entering XML manually and generating dynamic forms.
+  - Handling invalid inputs and showcasing the app's robustness.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+---
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Getting Started  
 
-## Step 3: Modifying your App
+### Prerequisites
 
-Now that you have successfully run the app, let's modify it.
+- Install **Node.js** and **npm**.
+- Set up **React Native CLI** or **Expo** for your development environment.
+- Ensure the mobile device/emulator has access to the file system (for file upload).
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### Installation Steps
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+1. Clone this repository.  
+2. Run `npm install` to install dependencies.  
+3. Start the React Native server using `npm start` or `react-native run-android`/`run-ios`.  
+4. Launch the app on your emulator or physical device.
 
-## Congratulations! :tada:
+---
 
-You've successfully run and modified your React Native App. :partying_face:
+## XML Input Guidelines
 
-### Now what?
+- Ensure the XML is **well-formed** and adheres to W3C standards.
+- Include supported HTML tags to define form components:
+  - **Text fields**, **radio buttons**, **date pickers**, and **drawing areas**.
+- Save XML files with `.xml` or `.txt` extensions for successful uploads.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+---
 
-# Troubleshooting
+## Error Handling Scenarios
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+- **Invalid File Type**: Alerts the user and restricts processing.  
+- **Empty XML File**: Prompts the user to upload a valid file.  
+- **Improper XML Format**: Provides error messages highlighting the issue.  
 
-# Learn More
+---
 
-To learn more about React Native, take a look at the following resources:
+## Contributing  
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Contributions are welcome!  
+1. Fork the repository.  
+2. Create a new branch for your feature/fix.  
+3. Submit a pull request with detailed descriptions of changes.
+
+---
+
+## License  
+
+This project is licensed under the [MIT License](#).  
+
+---
+
+## Contact  
+
+For queries or suggestions, please reach out to the repository maintainer.
