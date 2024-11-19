@@ -6,7 +6,7 @@ This repository contains a **React Native** application designed to dynamically 
 
 ## Example Usage Video  - **What It Covers**:
 
-[Watch the demo]([https://www.youtube.com/watch?v=example_video_id](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing))
+[Watch the demo](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing)
 
   - Uploading an XML file and rendering the corresponding form.
   - Entering XML manually and generating dynamic forms.
