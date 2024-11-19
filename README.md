@@ -4,6 +4,15 @@ This repository contains a **React Native** application designed to dynamically 
 
 ---
 
+## Example Usage Video  - **What It Covers**:
+
+![video_20241119_233452_edit](https://github.com/user-attachments/assets/a574162b-9803-471d-9fe8-f566eabf4647)
+  - Uploading an XML file and rendering the corresponding form.
+  - Entering XML manually and generating dynamic forms.
+  - Handling invalid inputs and showcasing the app's robustness.
+
+---
+
 ## Features
 
 - **Dynamic Form Rendering**:
@@ -37,15 +46,6 @@ This repository contains a **React Native** application designed to dynamically 
 
 ---
 
-## Example Usage Video  
-
-A video demonstration of the app in action is available [here](#).  
-- **What It Covers**:
-  - Uploading an XML file and rendering the corresponding form.
-  - Entering XML manually and generating dynamic forms.
-  - Handling invalid inputs and showcasing the app's robustness.
-
----
 
 ## Getting Started  
 
