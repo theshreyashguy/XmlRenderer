@@ -6,10 +6,7 @@ This repository contains a **React Native** application designed to dynamically 
 
 ## Example Usage Video  - **What It Covers**:
 
-[Watch the demo](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing)
-
-<video src="[https://raw.githubusercontent.com/<username>/<repository>/main/assets/video.mp4](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing)" controls>
-</video>
+[Watch the demo]([https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing](https://github.com/user-attachments/assets/d7b1f3e7-0ffb-4e4c-9bc7-d7d2d4498680))
 
 
   - Uploading an XML file and rendering the corresponding form.
