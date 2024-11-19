@@ -9,6 +9,9 @@ This repository contains a **React Native** application designed to dynamically 
 ![video_20241119_233452_edit](https://github.com/user-attachments/assets/a574162b-9803-471d-9fe8-f566eabf4647)
 
 ![video_20241119_233452_edit](https://github.com/user-attachments/assets/d7b1f3e7-0ffb-4e4c-9bc7-d7d2d4498680)
+![Form Renderer Video](https://github.com/user-attachments/assets/d7b1f3e7-0ffb-4e4c-9bc7-d7d2d4498680)
+
+
 
   - Uploading an XML file and rendering the corresponding form.
   - Entering XML manually and generating dynamic forms.
