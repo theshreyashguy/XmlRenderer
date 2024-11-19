@@ -6,7 +6,7 @@ This repository contains a **React Native** application designed to dynamically 
 
 ## Example Usage Video  - **What It Covers**:
 
-[Watch the demo on YouTube]([https://www.youtube.com/watch?v=example_video_id](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing))
+[Watch the demo]([https://www.youtube.com/watch?v=example_video_id](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing))
 
 ![video_20241119_233452_edit](https://github.com/user-attachments/assets/a574162b-9803-471d-9fe8-f566eabf4647)
 
