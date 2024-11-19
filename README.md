@@ -8,6 +8,10 @@ This repository contains a **React Native** application designed to dynamically 
 
 [Watch the demo](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing)
 
+<video src="[https://raw.githubusercontent.com/<username>/<repository>/main/assets/video.mp4](https://drive.google.com/file/d/1R1Qw6sOuHjWkjZyxT-D-b1ZQG2F6Ys0i/view?usp=sharing)" controls>
+</video>
+
+
   - Uploading an XML file and rendering the corresponding form.
   - Entering XML manually and generating dynamic forms.
   - Handling invalid inputs and showcasing the app's robustness.
